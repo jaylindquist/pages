@@ -61,6 +61,12 @@ Great, everything is published and pushed. Going to `https://jaylindquist.github
 
 Hmm, how can I do that? Oh, it's in the Quickstart guide. Create a submodule -- dangit. **Step 14** time to nuke and start over again.
 
-**Step 15** time to start tweaking to get all the paths correct.
+**Step 15** time to start tweaking to get all the paths correct. And once that is done, **Step 16** tweaking the CSS -- because I just can't help myself.
 
+And -- yay -- [everything is working](https://jaylindquist.github.io/) as expected!
 
+So, that's enough for tonight.
+
+Wait.
+
+Wasn't I going to do something with Docker?
