@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "BitwiseOr"
-baseurl = "http://jaylindquist.github.io/pages/"
+baseurl = "https://jaylindquist.github.io/"
 
 theme = "hyde"
 [params]
