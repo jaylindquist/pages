@@ -57,5 +57,10 @@ Oh right, I forgot, git is horrible. **Step 12** do all that. But none of that e
 
 OK, **Step 13** when git gets confusing, nuke it and start over. Delete all `.git` folders, remove the repo in GitHub and try again.
 
+Great, everything is published and pushed. Going to `https://jaylindquist.github.io/` I see my site, right? No, "Page not found". GitHub pages expects the content to be at the root of the repo, not in a subfolder. I want to version the markdown as well as the build site. 
+
+Hmm, how can I do that? Oh, it's in the Quickstart guide. Create a submodule -- dangit. **Step 14** time to nuke and start over again.
+
+**Step 15** time to start tweaking to get all the paths correct.
 
 
