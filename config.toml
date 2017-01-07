@@ -1,0 +1,8 @@
+languageCode = "en-us"
+title = "BitwiseOr"
+baseurl = "http://jaylindquist.github.io/pages/"
+
+theme = "hyde"
+[params]
+  layoutReverse = true
+  description = "it's like an 'or' with bits"
