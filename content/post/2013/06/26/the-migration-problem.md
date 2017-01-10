@@ -1,8 +1,9 @@
 +++
-menu = "main"
+ 
 date = "Wed, 26 Jun 2013 11:45:01 +0000"
 title = "The Migration Problem"
 draft = false
+ 
 +++
 Being able to write code for programmers has an interesting problem. What do you do when you want to change the API or how a component works?
 

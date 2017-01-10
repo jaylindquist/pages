@@ -1,8 +1,9 @@
 +++
-menu = "main"
+ 
 date = "Sun, 25 Aug 2013 03:40:36 +0000"
 title = "Do Not Fear the Computer"
 draft = false
+ 
 +++
 When starting anything new, most people have a fear of doing something, anything, wrong. For me, it is one of the most difficult reactions that I need to overcome before truly understanding a technology.
 

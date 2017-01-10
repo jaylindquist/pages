@@ -1,8 +1,29 @@
 languageCode = "en-us"
-title = "BitwiseOr"
-baseurl = "https://jaylindquist.github.io/"
+title = "BitwiseOR"
+baseurl = "/"
 
-theme = "hyde"
-[params]
-  layoutReverse = true
-  description = "it's like an 'or' with bits"
+paginate = "10" # Number of posts per page
+theme = "mainroad"
+disqusShortname = "" # Enable comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+[Author]
+    name = "Jay Lindquist"
+    bio = "Developer and wonderer"
+    avatar = "images/avatar.jpg"
+
+
+[Params]
+    subtitle = "Like || but with bits" # Subtitle of your site
+    description = "" # Description of your site
+    opengraph = true
+    leftsidebar = true # Move sidebar to the left side if true
+    authorbox = true
+    post_navigation = true
+
+
+[Params.widgets]
+    search = true # Enable "Search" widget
+    recent_articles = true # Enable "Recent arcticles" widget
+    categories = true # Enable "Categories" widget
+    tags = true # Enable "Tags" widget

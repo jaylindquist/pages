@@ -1,8 +1,9 @@
 +++
-menu = "main"
+ 
 date = "Wed, 09 May 2012 02:49:53 +0000"
 title = "Which Cloud Provider Should I Use?"
 draft = false
+ 
 +++
 
 Recently, I read through [Code in the Cloud - Programming Google App Engine](http://www.amazon.com/Code-Cloud-Pragmatic-Programmers-Chu-Carroll/dp/1934356638/ref=sr_1_1?ie=UTF8&amp;qid=1336529446&amp;sr=8-1) and decided to start a new project with cloud computing. Overall, it was quite good with an decent introduction to cloud computing as long as you already know Python and Java with a smattering of server side web development.

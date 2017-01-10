@@ -1,8 +1,9 @@
 +++
-menu = "main"
+ 
 date = "Thu, 30 May 2013 03:37:36 +0000"
 title = "Let's Have a Little Talk About Usability"
 draft = false
+ 
 +++
 One of the most interesting things about cars, from a usability point of view, is how easy it is to drive one. Once you've learned how to drive one, nearly any other car or truck is easy to learn But take a moment and think about what is actually involved in controlling a 4 ton piece of metal at 60 miles per hour next to other large, fast moving vehicles and you may start feeling overwhelmed.
 

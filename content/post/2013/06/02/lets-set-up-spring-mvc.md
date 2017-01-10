@@ -1,8 +1,9 @@
 +++
-menu = "main"
+ 
 date = "Mon, 03 Jun 2013 03:15:24 +0000"
 title = "Lets set up Spring MVC"
 draft = false
+ 
 +++
 
 Welcome to the [Modern Web](http://www.springsource.org/features/modern-web), here's your library. Spring MVC comes standard with the monolith that is the Spring Framework. It certainly makes creating a web app easy... once it's set up. Getting started, though, is the difficult part.

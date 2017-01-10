@@ -1,5 +1,4 @@
 +++
-menu = "main"
 date = "Fri, 30 Dec 2011 03:53:48 +0000"
 title = "How Embarrassing"
 Categories = []

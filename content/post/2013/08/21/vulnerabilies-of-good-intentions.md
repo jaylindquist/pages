@@ -1,8 +1,9 @@
 +++
-menu = "main"
+ 
 date = "Thu, 22 Aug 2013 04:25:28 +0000"
 title = "Vulnerabilies of Good Intentions"
 draft = false
+ 
 +++
 One of the saddest vulnerabilities introduced into applications are those that are created by design. These vulnerabilities are explicitly written into application requirements or have specific user stories. Often, the vulnerability takes on the form of functionality requested by one or more stakeholders.
 

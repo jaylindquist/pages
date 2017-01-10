@@ -1,8 +1,9 @@
 +++
-menu = "main"
+ 
 date = "Tue, 21 May 2013 12:05:17 +0000"
 title = "Zelda's Phantom Menace"
 draft = false
+ 
 +++
 About a week ago, I started playing The Legend of Zelda: Phantom Hourglass, a DS game from 2007. Now, at about the halfway point, I feel it is important to note the annoying design choices in the game. Specifically: bad stylus controls, the Phantom Hourglass dungeon itself, and pointless challenges. 
 

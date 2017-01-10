@@ -1,8 +1,9 @@
 +++
-menu = "main"
+ 
 date = "Tue, 28 May 2013 12:14:50 +0000"
 title = "There is No Such Thing as Two"
 draft = false
+ 
 +++
 Years ago, I don't know where, I don't know when, I heard the statement "There is no such thing as two." It was about programming in general, and the definition went something like this:
 <ul>

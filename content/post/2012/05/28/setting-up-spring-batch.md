@@ -1,8 +1,9 @@
 +++
-menu = "main"
+ 
 date = "Tue, 29 May 2012 02:48:49 +0000"
 title = "Setting Up Spring Batch"
 draft = false
+ 
 +++
 Lets do the setup work that we'll rely on for the rest of the project. We want to configure Spring Batch's database, configure logging and create a simple reader and writer. All code available on the Google Code project page for <a href="http://code.google.com/p/glextensions/" title="GLExtensions on Google Code">GLExtensions</a>.
 

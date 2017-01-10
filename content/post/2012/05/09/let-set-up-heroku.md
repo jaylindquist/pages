@@ -1,8 +1,9 @@
 +++
-menu = "main"
+ 
 date = "Thu, 10 May 2012 02:50:43 +0000"
 title = "Let Set Up Heroku"
 draft = false
+ 
 +++
 
 Now that we have a [cloud platform](http://www.heroku.com/) to use, how do we get started? Well, signing up is easy, just enter your email and confirm, but what's in the Terms of Service?

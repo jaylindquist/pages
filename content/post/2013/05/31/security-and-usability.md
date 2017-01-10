@@ -1,8 +1,9 @@
 +++
-menu = "main"
+ 
 date = "Fri, 31 May 2013 11:48:40 +0000"
 title = "Security and Usability"
 draft = false
+ 
 +++
 With respect to my last post, cars are actually quite easy to learn and use despite their extreme complexity. A driver can easily move from one vehicle to the next and comfortable operate it with only a quick look at the controls. This made possible by the fact that each car is trying to solve the same problem within the same limitations of size, road construction and regulations. 
 

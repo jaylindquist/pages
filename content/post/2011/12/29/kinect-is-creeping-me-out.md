@@ -1,5 +1,4 @@
 +++
-menu = "main"
 date = "Fri, 30 Dec 2011 04:16:59 +0000"
 title = "Aside"
 draft = false

@@ -1,8 +1,9 @@
 +++
-menu = "main"
+ 
 date = "Thu, 20 Jun 2013 04:15:27 +0000"
 title = "Creating a Reusable URL with Spring RestTemplate"
 draft = false
+ 
 +++
 
 It's a fact. Spring has a way of simplifying development in a developer-centric way. Spring's <a href="http://blog.springsource.org/2009/03/27/rest-in-spring-3-resttemplate/" title="RestTemplate">RestTemplate</a> gets us an easy to use REST interface.

@@ -1,8 +1,9 @@
 +++
-menu = "main"
+ 
 date = "Sat, 21 Sep 2013 03:39:35 +0000"
 title = "Creating Test Services with Spring Boot"
 draft = false
+ 
 +++
 
 One of the coolest new technologies from the Spring Foundation has to be the new <a href="http://spring.io/blog/2013/08/06/spring-boot-simplifying-spring-for-everyone" title="Spring Boot   Simplifying Spring for Everyone">Spring Boot</a> project. Spring Boot takes all the common template / bootstrap / setup code that everyone is doing already and just does it for you. 
@@ -11,7 +12,7 @@ It also covers all the main Spring technologies: Spring MVC, Spring Batch, Sprin
 
 <a href="https://github.com/spring-projects/spring-boot" title="Spring Boot on Github">GitHub</a> already has the basics for creating simple examples. For example, from the Spring Blog (once you have the Spring Boot command line installed) the following groovy code will run a web site:
 
-```
+```java
 @Controller
 class ThisWillActuallyRun {
     @RequestMapping("/")

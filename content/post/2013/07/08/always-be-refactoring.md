@@ -1,8 +1,9 @@
 +++
-menu = "main"
+ 
 date = "Mon, 08 Jul 2013 16:26:23 +0000"
 title = "Always Be Refactoring"
 draft = false
+ 
 +++
 If there is one thing you can do to improve your coding skills, it would have to be refactoring existing code.
 

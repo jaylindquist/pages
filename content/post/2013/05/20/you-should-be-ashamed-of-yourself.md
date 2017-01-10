@@ -1,8 +1,9 @@
 +++
-menu = "main"
+ 
 date = "Mon, 20 May 2013 11:57:24 +0000"
 title = "You should be ashamed of yourself"
 draft = false
+ 
 +++
 Computer Science, as a field, is relatively young. New advances are being created daily; both the theory and implementation are evolving at a rapid rate. 
 

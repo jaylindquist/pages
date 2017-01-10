@@ -1,8 +1,9 @@
 +++
-menu = "main"
+ 
 date = "Wed, 22 May 2013 11:57:59 +0000"
 title = "The New Console Wars"
 draft = false
+ 
 +++
 With the release of the <a href="http://www.xbox.com/en-US/xboxone/meet-xbox-one">XBox One</a>, the new console wars have finally begun. Depending on whom you talk to, the reaction is either a big yawn or <a href="http://kotaku.com/that-xbox-one-reveal-sure-was-a-disaster-huh-509192266">an enraged scream</a>. 
 

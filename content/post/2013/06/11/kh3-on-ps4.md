@@ -1,8 +1,9 @@
 +++
-menu = "main"
+ 
 date = "Tue, 11 Jun 2013 12:03:36 +0000"
 title = "KH3 on PS4"
 draft = false
+ 
 +++
 It was announced yesterday, <a href="http://m.joystiq.com/2013/06/10/kingdom-hearts-3-coming-to-the-playstation-4/">Kingdom Hearts 3 will be released on the PS4</a>, and I'm a bit disappointed.
 

@@ -1,8 +1,9 @@
 +++
-menu = "main"
+ 
 date = "Sun, 04 Aug 2013 04:12:36 +0000"
 title = "Lets set up Ember.js"
 draft = false
+ 
 +++
 
 <a title="Ember.js home page" href="http://emberjs.com/">Ember.js</a> is an interesting creature. This is the first client-side MVC I've looked into. Apparently calling these applications "single page apps" are looked down upon, even though they are driven from a single HTML page. Single DOM applications seems more appropriate.

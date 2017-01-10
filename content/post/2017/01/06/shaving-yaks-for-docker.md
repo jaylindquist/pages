@@ -2,6 +2,7 @@
 date = "2017-01-06T20:54:58-06:00"
 title = "Shaving Yaks for Docker"
 draft = false
+ 
 
 +++
 

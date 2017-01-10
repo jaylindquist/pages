@@ -1,8 +1,9 @@
 +++
-menu = "main"
+ 
 date = "Tue, 15 May 2012 03:12:30 +0000"
 title = "Oh Heroku, Why?"
 draft = false
+ 
 +++
 
 In a sad turn of events, I managed to get a test app running using Java, added it to Git and uploaded to Heroku. It was only then that I realized I need to "Verify" my account before being able to run my application.
