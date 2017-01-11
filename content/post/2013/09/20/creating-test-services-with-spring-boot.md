@@ -31,7 +31,7 @@ It gets a little more complicated when you need an advanced site. Specifically, 
 
 Something that I always appreciate, is a gradle plugin, and Spring Boot comes through. The following build.gradle loads in Spring Boot, a few more dependencies to support Groovy, an in memory database and JSON parsing for the service, then adds a `run` command to make life easier.
 
-```
+```groovy
 buildscript {
     repositories {
         mavenCentral()
@@ -86,7 +86,7 @@ I've used the standard Groovy Jar project structure for Gradle, but any structur
 
 From the build file above, the run task simply executes the main class `com.mycom.App`. This class will tell Spring Boot how to run our app and set up all our autowiring needs.
 
-```
+```java
 package com.mycom 
 
 import org.springframework.boot.*
@@ -134,7 +134,7 @@ Here's our actual data. We'll follow the model from the <a href="http://bitwiseo
 
 Our schema creates the tables and sample data in one file:
 
-```
+```sql
 CREATE TABLE franchises (
     id BIGINT NOT NULL PRIMARY KEY,
     title VARCHAR(255)
@@ -178,7 +178,7 @@ The services themselves will simply return the data from the database based on t
 
 For Frachises:
 
-```
+```java
 package com.mycom
 
 import javax.sql.DataSource
@@ -224,7 +224,7 @@ class Franchise {
 
 And similarly for Games:
 
-```
+```java
 package com.mycom
 
 import javax.sql.DataSource

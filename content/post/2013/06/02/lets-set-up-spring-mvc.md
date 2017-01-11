@@ -16,7 +16,7 @@ What do we want to accomplish? We want to set up Spring MVC to handle all *.html
 ## Dependencies
 There's one downside for Spring, a lot of jars are involved. To accomplish the above we need the following jars:
 
-```
+```properties
 aopalliance-1.0.jar
 commons-logging-1.1.3.jar
 groovy-all-2.1.1.jar
@@ -33,12 +33,13 @@ spring-expression-3.2.3.RELEASE.jar
 spring-web-3.2.3.RELEASE.jar
 spring-webmvc-3.2.3.RELEASE.jar
 ```
+
 Your versions may vary
 
 ## File Structure
 We will order our files in the following directory structure:
 
-```
+```txt
 \---src
     +---main
     |   +---groovy
@@ -64,7 +65,7 @@ We will order our files in the following directory structure:
 
 The deployment descriptor sets up 4 items: the welcome files list, set to index.html, <a title="defaultHtmlEscape" href="http://static.springsource.org/spring/docs/3.2.3.RELEASE/spring-framework-reference/htmlsingle/#spring.tld.htmlEscape">default HTML escaping</a> to prevent XSS attacks, the <a title="Spring MVC DispatcherServlet" href="http://static.springsource.org/spring/docs/3.2.3.RELEASE/spring-framework-reference/htmlsingle/#mvc-servlet">DispatcherServlet</a>, and which files Spring MVC will handle.
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
   <welcome-file-list>
@@ -97,7 +98,7 @@ The deployment descriptor sets up 4 items: the welcome files list, set to index.
 
 The *-servlet.xml file is automatically loaded by the DispatcherServlet based on the servlet name. In this case, Spring will look for spring-servlet.xml. We need to configure this file to do the following: scan our source code for controllers, note that Spring MVC will be driven by annotations (not necessarily needed, but will prevent issues in the future) and tell Spring MVC to resolves views in our WEB-INF/jsp folder.
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -130,7 +131,7 @@ Since Spring MVC is mapped to *.html, only html files will be picked up. So any 
 
 Any groovy files with the @Controller annotation will be picked up Spring. The controller needs to hold methods that map to a specific URL (an html file, in this case). It will then need return a Model and or View. The string representing the view will be mapped to the corresponding JSP file under WEB-INF/jsp.
 
-```
+```java
 package com.mycom.controller
 
 import org.springframework.stereotype.Controller
@@ -162,7 +163,7 @@ Our views a simple JSP pages that get resolved to WEB-INF/jsp/<view-name>.jsp. S
 
 Lastly we configure our logging to print out all our debug statements, letting us know if everything is working correctly.
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <configuration debug="true">
   <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">

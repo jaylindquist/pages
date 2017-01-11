@@ -28,7 +28,7 @@ Lets get the annoying stuff out the way: This example uses Ember.js 1.0 RC6. It 
 
 Since we aren't using any styles, out base HTML page is a bit bare, but we still need it:
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -64,7 +64,7 @@ In order to get Ember up and running, we need some common components:
 ### Application
 We start with the Application. This is easy enough:
 
-```
+```javascript
 App = Ember.Application.create({});
 ```
 
@@ -74,7 +74,7 @@ I'll say little about the model for now. In this case, I am not using Ember Data
 
 All you really need to know is that the methods on the model exist and do what they say:
 
-```
+```javascript
 Store = {
     franchises: Ember.A(),
     defaultFranchise: function() {...},
@@ -106,7 +106,7 @@ App.GameStore.init();
 ### Router
 The router will define most of our application. When creating a router, you define the routes with names and paths. Once you have a name of a route, Ember will automatically look for routes and controllers with specific names. So, a route named `franchise` will have a `FranchiseRoute` and a `FranchiseController`. See the naming conventions for more information.
 
-```
+```javascript
 App.Router.map(function() {
     this.resource('franchise', { path:'/franchise/:franchise_id'}, function() {
         this.resource('game', { path: '/game/:game_id' });
@@ -127,7 +127,7 @@ Even though we have only defined two routes, there are four routes that we want 
 
 Translating this to code, we get:
 
-```
+```javascript
 App.ApplicationRoute = Ember.Route.extend({
     setupController: function(applicationController) {
         applicationController.set('franchises', App.GameStore.franchises);
@@ -165,7 +165,7 @@ This application has three templates that correspond to the four routes we creat
 * `franchise` - this corresponds to the `FranchiseRoute` above and will be rendered as the default template's `{{outlet}}`. It will have access to the `franchise` loaded as the template's model implicitly.
 * `game` - similarly, this template is loaded as the franchise's `{{outlet}}` and will have the implicit `game` model.
 
-```
+```html
 <script type="text/x-handlebars">
     <h1>Franchises</h1>
     <ul>

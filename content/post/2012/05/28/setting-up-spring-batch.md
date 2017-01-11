@@ -27,7 +27,8 @@ batch.schema.script=classpath:/org/springframework/batch/core/schema-hsqldb.sql
 The following beans file will set up the job repository, configure component scan and import the jobs configuration which will be discussed later:
 
 > beans.xml
-```
+
+```xml
  <?xml version="1.0" encoding="UTF-8"?>
  <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -52,7 +53,7 @@ The rest of the database setup happens in code:
 
 > BatchConfig.groovy
 
-```
+```java
 package com.bitwiseor.extensions.config
 
 import javax.sql.DataSource;
@@ -116,7 +117,7 @@ We also want logging to keep track of the work we've done. Using SLF4J and Logba
 
 > logback.xml
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
  <configuration>
      <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
@@ -148,7 +149,7 @@ First, the ItemReader. The interface has a single method call that must return a
 
 > DirectoryItemReader.groovy
 
-```
+```java
 package com.bitwiseor.extensions.batch
 
 import org.springframework.batch.item.ItemReader
@@ -179,7 +180,7 @@ And then the ItemWriter. The LoggingItemWriter simply logs each item out as an i
 
 > LoggingItemWriter.groovy
 
-```
+```java
 package com.bitwiseor.extensions.batch
 
 import groovy.util.logging.Slf4j
@@ -203,7 +204,7 @@ Lastly, we need our job XML configuration. The job simply defines the reader and
 
 > jobs.xml
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
  <beans:beans xmlns:beans="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -229,7 +230,7 @@ In order to build and run everything, we'll use gradle, a Groovy based build too
 
 > build.gradle
 
-```
+```java
 apply plugin:'groovy'
 apply plugin:'eclipse'
 apply plugin:'application'

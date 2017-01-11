@@ -10,6 +10,7 @@
 <link rel="dns-prefetch" href="//fonts.googleapis.com" />
 {{ if .RSSLink -}}<link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} Feed" href="{{ .RSSLink }}">{{- end }}
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,600" type="text/css" media="all" />
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css" type="text/css" media="all" />
 <script type="text/javascript" src="{{ .Site.BaseURL }}js/scripts.js"></script>
 {{ "<!--[if lt IE 9]>" | safeHTML }}

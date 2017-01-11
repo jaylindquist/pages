@@ -21,7 +21,7 @@ Here, we have a few different requirements needed to build a template:
 
 This is a fairly straight forward implementation which I have found to be very useful.
 
-```
+```java
 class RestTemplateUtil {
     private String baseUrl
     private String key
@@ -53,7 +53,7 @@ class RestTemplateUtil {
 
 Once configured, the developer builds the template from the API path and a Set of parameter names. This Set is easily constructed from a Map of parameters and their values used directly by the RestTemplate.
 
-```
+```java
 def templateUtil = new RestTemplateUtil()
 templateUtil.baseUrl = 'http://api.example.com'
 templateUtil.key = 'myKey'
